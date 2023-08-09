@@ -1,5 +1,5 @@
-# Use Paddle 2.3.2
-FROM paddlepaddle/paddle:2.3.2-gpu-cuda11.2-cudnn8
+# Use Paddle 2.3.2 (Dec 2022)
+FROM nvcr.io/nvidia/paddlepaddle:22.12-py3
 
 RUN adduser --disabled-password --disabled-login ci
 WORKDIR /home/ci
